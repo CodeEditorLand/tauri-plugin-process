@@ -23,7 +23,7 @@ var core = require("@tauri-apps/api/core");
  * @since 2.0.0
  */
 async function exit(code = 0) {
-	await core.invoke("plugin:process|exit", { code });
+    await core.invoke('plugin:process|exit', { code });
 }
 /**
  * Exits the current instance of the app then relaunches it.
@@ -38,7 +38,7 @@ async function exit(code = 0) {
  * @since 2.0.0
  */
 async function relaunch() {
-	await core.invoke("plugin:process|restart");
+    await core.invoke('plugin:process|restart');
 }
 
 exports.exit = exit;
