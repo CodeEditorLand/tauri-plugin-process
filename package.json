@@ -1,5 +1,14 @@
 {
+<<<<<<< HEAD
 	"name": "@tauri-apps/plugin-process",
+=======
+	"authors": [
+		"Tauri Programme within The Commons Conservancy"
+	],
+	"dependencies": {
+		"@tauri-apps/api": "2.0.0-rc.5"
+	},
+>>>>>>> 04672374dd07e365377597b670a9d28593455a3c
 	"exports": {
 		"import": "./dist-js/index.js",
 		"require": "./dist-js/index.cjs",
