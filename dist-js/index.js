@@ -1,4 +1,4 @@
-import { invoke } from "@tauri-apps/api/core";
+import { invoke } from '@tauri-apps/api/core';
 
 // Copyright 2019-2023 Tauri Programme within The Commons Conservancy
 // SPDX-License-Identifier: Apache-2.0
@@ -21,7 +21,7 @@ import { invoke } from "@tauri-apps/api/core";
  * @since 2.0.0
  */
 async function exit(code = 0) {
-	await invoke("plugin:process|exit", { code });
+    await invoke('plugin:process|exit', { code });
 }
 /**
  * Exits the current instance of the app then relaunches it.
@@ -36,7 +36,7 @@ async function exit(code = 0) {
  * @since 2.0.0
  */
 async function relaunch() {
-	await invoke("plugin:process|restart");
+    await invoke('plugin:process|restart');
 }
 
 export { exit, relaunch };
