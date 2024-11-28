@@ -25,4 +25,5 @@ declare function exit(code?: number): Promise<void>;
  * @since 2.0.0
  */
 declare function relaunch(): Promise<void>;
+
 export { exit, relaunch };
