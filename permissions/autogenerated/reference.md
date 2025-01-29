@@ -1,6 +1,7 @@
 ## Default Permission
 
-This permission set configures which process feeatures are by default exposed.
+This permission set configures which
+process features are by default exposed.
 
 #### Granted Permissions
 
